@@ -1,16 +1,14 @@
-import './App.css'
-import CommentsForm from './CommentsForm';
-import Comment from './Comment';
-import Form from "./Form";
+import './App.css';
 import Counter from './Counter';
-import Joker from './Joker';
+import Comment from './Comment'; // Added this line
 
 function App() {
   return (
     <>
-    <Joker/>
+      {/* <Counter /> */}
+      <Comment /> 
     </>
-  )
+  );
 }
 
 export default App;
